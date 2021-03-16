@@ -19,7 +19,7 @@ config = {
     # "logs": True,  # enable logging
     # "log_dir": "logs/",  # directory for text logs/backups
     "bot_files_dir": "bot_files",  # folder for bot generated files (downloaded images, logs)
-    "short_id_type": "min",  # short (usually 1 letter) form of id_type, used as alias for the pic command
+    "short_id_type": "r",  # short (usually 1 letter) form of id_type, used as alias for the pic command
     "invite": "https://discord.com/api/oauth2/authorize?client_id=821143596232474684&permissions=51200&scope=bot",  # bot server invite link
     "authors": "person_v1.32",  # creator names
     "category_name": "specimen category",  # space thing, bird order, muscle group - what you are splitting groups by
@@ -44,7 +44,7 @@ config = {
     # "bot_token_env": "token",  # name of environment variable containing the discord bot token
     # "sentry_dsn_env": "SENTRY_DISCORD_DSN",  # name of environment variable containing the sentry dsn
     # "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
-    "backups_channel": 820738627599728658,  # discord channel id to upload database backups (None/False to disable)
+    "backups_channel": 622504377835454465,#820738627599728658,  # discord channel id to upload database backups (None/False to disable)
     # "backups_dir": "backups/",  # directory to put database backup files before uploading
     "holidays": True,  # enable special features on select holidays
     "sendas": True,  # enable the "sendas" command
