@@ -2,4 +2,4 @@ aragonite
 azurite
 calcite
 dolomite
-malachtite
+malacite

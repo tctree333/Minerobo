@@ -3,7 +3,7 @@ aragonite
 azurite
 calcite
 dolomite
-malachtite
+malacite
 copper
 diamond
 gold
@@ -20,7 +20,7 @@ hematite
 magnetite
 apatite
 barite
-celestite
+celestine
 alabaster
 satin spar
 selenite

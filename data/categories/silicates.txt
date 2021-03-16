@@ -6,4 +6,4 @@ sodalite
 staurolite
 talc
 topaz
-tourmaline group
+tourmaline group,tourmaline

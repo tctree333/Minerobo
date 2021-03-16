@@ -1,2 +1,2 @@
 barite
-celestite
+celestine,celestite

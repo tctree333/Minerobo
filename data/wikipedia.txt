@@ -3,7 +3,7 @@ aragonite,https://[some url or whatever]/aragonite
 azurite,https://[some url or whatever]/azurite
 calcite,https://[some url or whatever]/calcite
 dolomite,https://[some url or whatever]/dolomite
-malachtite,https://[some url or whatever]/malachtite
+malacite,https://[some url or whatever]/malacite
 copper,https://[some url or whatever]/copper
 diamond,https://[some url or whatever]/diamond
 gold,https://[some url or whatever]/gold
@@ -20,7 +20,7 @@ hematite,https://[some url or whatever]/hematite
 magnetite,https://[some url or whatever]/magnetite
 apatite,https://[some url or whatever]/apatite
 barite,https://[some url or whatever]/barite
-celestite,https://[some url or whatever]/celestite
+celestine,https://[some url or whatever]/celestine
 alabaster,https://[some url or whatever]/alabaster
 satin spar,https://[some url or whatever]/satin spar
 selenite,https://[some url or whatever]/selenite
