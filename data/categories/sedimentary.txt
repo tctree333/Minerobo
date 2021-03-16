@@ -1,0 +1,8 @@
+Arkose
+Breccia
+Chert
+Conglomerate
+Diatomite
+Dolostone
+Sandstone
+Shale
