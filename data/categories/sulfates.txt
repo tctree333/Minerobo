@@ -1,2 +1,2 @@
-Barite
-Celestite
+barite
+celestite

@@ -1,2 +1,2 @@
-Augite
-Rhodonite
+augite
+rhodonite

@@ -1,5 +1,5 @@
-Chalk
-Coquina
-Fossiliferous
-Oolite
-Travertine
+chalk
+coquina
+fossiliferous
+oolite
+travertine

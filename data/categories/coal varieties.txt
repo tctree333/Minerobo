@@ -1,3 +1,3 @@
-Anthracite
-Bituminous
-Lignite
+anthracite
+bituminous
+lignite

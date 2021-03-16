@@ -1,10 +1,10 @@
-Agate
-Onyx
-Amethyst
-Chalcedony
-Citrine
-Crystal,Rock Crystal
-Jasper
-Milky Quartz
-Opal
-Rose Quartz
+agate
+onyx
+amethyst
+chalcedony
+citrine
+crystal,rock crystal
+jasper
+milky quartz
+opal
+rose quartz

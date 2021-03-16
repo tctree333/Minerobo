@@ -1,2 +1,2 @@
-Fluorite
-Halite
+fluorite
+halite

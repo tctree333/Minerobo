@@ -1,7 +1,7 @@
-Gneiss
-Marble
-Phyllite
-Quartzite
-Garnet Schist
-Mica Schist
-Slate
+gneiss
+marble
+phyllite
+quartzite
+garnet schist
+mica schist
+slate

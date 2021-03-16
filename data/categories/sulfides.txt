@@ -1,4 +1,4 @@
-Bornite
-Chalcopyrite
-Pyrite
-Sphalerite
+bornite
+chalcopyrite
+pyrite
+sphalerite

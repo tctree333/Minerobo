@@ -1,9 +1,9 @@
-Beryl
-Epidote
-Kaolinite
-Olivine
-Sodalite
-Staurolite
-Talc
-Topaz
-Tourmaline Group
+beryl
+epidote
+kaolinite
+olivine
+sodalite
+staurolite
+talc
+topaz
+tourmaline group

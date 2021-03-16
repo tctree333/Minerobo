@@ -1,8 +1,8 @@
-Arkose
-Breccia
-Chert
-Conglomerate
-Diatomite
-Dolostone
-Sandstone
-Shale
+arkose
+breccia
+chert
+conglomerate
+diatomite
+dolostone
+sandstone
+shale
