@@ -85,10 +85,10 @@ dolostone
 sandstone
 shale
 anthracite
-bituminous
+bituminous coal
 lignite
 chalk
 coquina
-fossiliferous
+fossiliferous limestone
 oolite
 travertine
