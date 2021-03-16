@@ -1,27 +1,27 @@
-name: "Deploy"
+# name: "Deploy"
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  pipeline:
-    runs-on: ubuntu-latest
+# jobs:
+#   pipeline:
+#     runs-on: ubuntu-latest
 
-    steps:
-        - uses: actions/checkout@v2
+#     steps:
+#         - uses: actions/checkout@v2
 
-        - name: Sentry Deploys
-          uses: tctree333/SciOlyID-Actions/sentry@master
-          with:
-            sentry auth: ${{ secrets.SENTRY_TOKEN }}
-            sentry org: "sciolyid"
-            sentry project 1: fossil-id-discord
+#         # - name: Sentry Deploys
+#         #   uses: tctree333/SciOlyID-Actions/sentry@master
+#         #   with:
+#         #     sentry auth: ${{ secrets.SENTRY_TOKEN }}
+#         #     sentry org: "sciolyid"
+#         #     sentry project 1: 
 
-        - name: Deploy to Dokku
-          uses: tctree333/SciOlyID-Actions/deploy-dokku@master
-          with:
-            dokku app name: fossil-id
-            dokku host: ${{ secrets.DOKKU_HOST }}
-            ssh private key: ${{ secrets.PRIVATE_KEY }}
+#         - name: Deploy to Dokku
+#           uses: tctree333/SciOlyID-Actions/deploy-dokku@master
+#           with:
+#             dokku app name: minerobo
+#             dokku host: ${{ secrets.DOKKU_HOST }}
+#             ssh private key: ${{ secrets.PRIVATE_KEY }}
