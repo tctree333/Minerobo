@@ -1,94 +1,94 @@
-ulexite,https://[some url or whatever]/ulexite
-aragonite,https://[some url or whatever]/aragonite
-azurite,https://[some url or whatever]/azurite
-calcite,https://[some url or whatever]/calcite
-dolomite,https://[some url or whatever]/dolomite
-malacite,https://[some url or whatever]/malacite
-copper,https://[some url or whatever]/copper
-diamond,https://[some url or whatever]/diamond
-gold,https://[some url or whatever]/gold
-graphite,https://[some url or whatever]/graphite
-silver,https://[some url or whatever]/silver
-sulfur,https://[some url or whatever]/sulfur
-fluorite,https://[some url or whatever]/fluorite
-halite,https://[some url or whatever]/halite
-bauxite,https://[some url or whatever]/bauxite
-corundum,https://[some url or whatever]/corundum
-goethite,https://[some url or whatever]/goethite
-limonite,https://[some url or whatever]/limonite
-hematite,https://[some url or whatever]/hematite
-magnetite,https://[some url or whatever]/magnetite
-apatite,https://[some url or whatever]/apatite
-barite,https://[some url or whatever]/barite
-celestine,https://[some url or whatever]/celestine
-alabaster,https://[some url or whatever]/alabaster
-satin spar,https://[some url or whatever]/satin spar
-selenite,https://[some url or whatever]/selenite
-bornite,https://[some url or whatever]/bornite
-chalcopyrite,https://[some url or whatever]/chalcopyrite
-pyrite,https://[some url or whatever]/pyrite
-sphalerite,https://[some url or whatever]/sphalerite
-beryl,https://[some url or whatever]/beryl
-epidote,https://[some url or whatever]/epidote
-kaolinite,https://[some url or whatever]/kaolinite
-olivine,https://[some url or whatever]/olivine
-sodalite,https://[some url or whatever]/sodalite
-staurolite,https://[some url or whatever]/staurolite
-talc,https://[some url or whatever]/talc
-topaz,https://[some url or whatever]/topaz
-tourmaline group,https://[some url or whatever]/tourmaline group
-hornblende,https://[some url or whatever]/hornblende
-tremolite,https://[some url or whatever]/tremolite
-albite,https://[some url or whatever]/albite
-amazonite,https://[some url or whatever]/amazonite
-orthoclase,https://[some url or whatever]/orthoclase
-microcline,https://[some url or whatever]/microcline
-almandine,https://[some url or whatever]/almandine
-biotite,https://[some url or whatever]/biotite
-lepidolite,https://[some url or whatever]/lepidolite
-muscovite,https://[some url or whatever]/muscovite
-augite,https://[some url or whatever]/augite
-rhodonite,https://[some url or whatever]/rhodonite
-agate,https://[some url or whatever]/agate
-onyx,https://[some url or whatever]/onyx
-amethyst,https://[some url or whatever]/amethyst
-chalcedony,https://[some url or whatever]/chalcedony
-citrine,https://[some url or whatever]/citrine
-crystal,https://[some url or whatever]/crystal
-jasper,https://[some url or whatever]/jasper
-milky quartz,https://[some url or whatever]/milky quartz
-opal,https://[some url or whatever]/opal
-rose quartz,https://[some url or whatever]/rose quartz
-gneiss,https://[some url or whatever]/gneiss
-marble,https://[some url or whatever]/marble
-phyllite,https://[some url or whatever]/phyllite
-quartzite,https://[some url or whatever]/quartzite
-garnet schist,https://[some url or whatever]/garnet schist
-mica schist,https://[some url or whatever]/mica schist
-slate,https://[some url or whatever]/slate
-andesite,https://[some url or whatever]/andesite
-basalt,https://[some url or whatever]/basalt
-diorite,https://[some url or whatever]/diorite
-gabbro,https://[some url or whatever]/gabbro
-granite,https://[some url or whatever]/granite
-obsidian,https://[some url or whatever]/obsidian
-pegmatite,https://[some url or whatever]/pegmatite
-pumice,https://[some url or whatever]/pumice
-rhyolite,https://[some url or whatever]/rhyolite
-scoria,https://[some url or whatever]/scoria
-arkose,https://[some url or whatever]/arkose
-breccia,https://[some url or whatever]/breccia
-chert,https://[some url or whatever]/chert
-conglomerate,https://[some url or whatever]/conglomerate
-diatomite,https://[some url or whatever]/diatomite
-dolostone,https://[some url or whatever]/dolostone
-sandstone,https://[some url or whatever]/sandstone
-shale,https://[some url or whatever]/shale
-anthracite,https://[some url or whatever]/anthracite
-bituminous,https://[some url or whatever]/bituminous
-lignite,https://[some url or whatever]/lignite
-chalk,https://[some url or whatever]/chalk
-coquina,https://[some url or whatever]/coquina
-fossiliferous,https://[some url or whatever]/fossiliferous
-oolite,https://[some url or whatever]/oolite
-travertine,https://[some url or whatever]/travertine
+ulexite,https://www.minerals.net/mineral/ulexite.aspx
+aragonite,https://www.minerals.net/mineral/aragonite.aspx
+azurite,https://www.minerals.net/mineral/azurite.aspx
+calcite,https://www.minerals.net/mineral/calcite.aspx
+dolomite,https://www.minerals.net/mineral/dolomite.aspx
+malachite,https://www.minerals.net/mineral/malachite.aspx
+copper,https://www.minerals.net/mineral/copper.aspx
+diamond,https://www.minerals.net/mineral/diamond.aspx
+gold,https://www.minerals.net/mineral/gold.aspx
+graphite,https://www.minerals.net/mineral/graphite.aspx
+silver,https://www.minerals.net/mineral/silver.aspx
+sulfur,https://www.minerals.net/mineral/sulfur.aspx
+fluorite,https://www.minerals.net/mineral/fluorite.aspx
+halite,https://www.minerals.net/mineral/halite.aspx
+bauxite,https://www.minerals.net/mineral/bauxite.aspx
+corundum,https://www.minerals.net/mineral/corundum.aspx
+goethite,https://www.minerals.net/mineral/goethite.aspx
+limonite,https://www.minerals.net/mineral/limonite.aspx
+hematite,https://www.minerals.net/mineral/hematite.aspx
+magnetite,https://www.minerals.net/mineral/magnetite.aspx
+apatite,https://www.minerals.net/mineral/apatite.aspx
+barite,https://www.minerals.net/mineral/barite.aspx
+celestite,https://www.minerals.net/mineral/celestine.aspx
+alabaster,https://en.wikipedia.org/wiki/Alabaster#Gypsum_alabaster
+satin spar,https://www.mindat.org/min-8574.html
+selenite,https://en.wikipedia.org/wiki/Selenite_(mineral)
+bornite,https://www.minerals.net/mineral/bornite.aspx
+chalcopyrite,https://www.minerals.net/mineral/chalcopyrite.aspx
+pyrite,https://www.minerals.net/mineral/pyrite.aspx
+sphalerite,https://www.minerals.net/mineral/sphalerite.aspx
+beryl,https://www.minerals.net/mineral/beryl.aspx
+epidote,https://www.minerals.net/mineral/epidote.aspx
+kaolinite,https://www.minerals.net/mineral/kaolinite.aspx
+olivine,https://www.minerals.net/mineral/olivine.aspx
+sodalite,https://www.minerals.net/mineral/sodalite.aspx
+staurolite,https://www.minerals.net/mineral/staurolite.aspx
+talc,https://www.minerals.net/mineral/talc.aspx
+topaz,https://www.minerals.net/mineral/topaz.aspx
+tourmaline group,https://www.minerals.net/mineral/tourmaline.aspx
+hornblende,https://www.minerals.net/mineral/hornblende.aspx
+tremolite,https://www.minerals.net/mineral/tremolite.aspx
+albite,https://www.minerals.net/mineral/albite.aspx
+amazonite,https://en.wikipedia.org/wiki/Amazonite
+orthoclase,https://www.minerals.net/mineral/orthoclase.aspx
+microcline,https://www.minerals.net/mineral/microcline.aspx
+almandine,https://www.minerals.net/mineral/almandine.aspx
+biotite,https://www.minerals.net/mineral/biotite.aspx
+lepidolite,https://www.minerals.net/mineral/lepidolite.aspx
+muscovite,https://www.minerals.net/mineral/muscovite.aspx
+augite,https://www.minerals.net/mineral/augite.aspx
+rhodonite,https://www.minerals.net/mineral/rhodonite.aspx
+agate,https://www.minerals.net/mineral/agate.aspx
+onyx,https://www.minerals.net/gemstone/onyx_gemstone.aspx
+amethyst,https://www.minerals.net/mineral/amethyst.aspx
+chalcedony,https://www.minerals.net/mineral/chalcedony.aspx
+citrine,https://www.minerals.net/mineral/citrine.aspx
+crystal,https://en.wikipedia.org/wiki/Quartz#Varieties_(according_to_color)
+jasper,https://www.minerals.net/mineral/jasper.aspx
+milky quartz,http://www.galleries.com/Milky_quartz
+opal,https://www.minerals.net/mineral/opal.aspx
+rose quartz,https://www.minerals.net/gemstone/rose_quartz_gemstone.aspx
+gneiss,https://en.wikipedia.org/wiki/Gneiss
+marble,https://en.wikipedia.org/wiki/Marble
+phyllite,https://geology.com/rocks/phyllite.shtml
+quartzite,https://en.wikipedia.org/wiki/Quartzite
+garnet schist,https://geology.com/rocks/schist.shtml
+mica schist,https://geology.com/rocks/schist.shtml
+slate,https://en.wikipedia.org/wiki/Slate
+andesite,https://en.wikipedia.org/wiki/Andesite
+basalt,https://en.wikipedia.org/wiki/Basalt
+diorite,https://en.wikipedia.org/wiki/Diorite
+gabbro,https://en.wikipedia.org/wiki/Gabbro
+granite,https://en.wikipedia.org/wiki/Granite
+obsidian,https://en.wikipedia.org/wiki/Obsidian
+pegmatite,https://en.wikipedia.org/wiki/Pegmatite
+pumice,https://en.wikipedia.org/wiki/Pumice
+rhyolite,https://en.wikipedia.org/wiki/Rhyolite
+scoria,https://geology.com/rocks/scoria.shtml
+arkose,https://en.wikipedia.org/wiki/Arkose
+breccia,https://en.wikipedia.org/wiki/Breccia
+chert,https://en.wikipedia.org/wiki/Chert
+conglomerate,https://en.wikipedia.org/wiki/Conglomerate_(geology)
+diatomite,https://en.wikipedia.org/wiki/Diatomaceous_earth
+dolostone,https://en.wikipedia.org/wiki/Dolomite_(rock)
+sandstone,https://en.wikipedia.org/wiki/Sandstone
+shale,https://en.wikipedia.org/wiki/Shale
+anthracite,https://en.wikipedia.org/wiki/Anthracite
+bituminous,https://en.wikipedia.org/wiki/Bituminous_coal
+lignite,https://en.wikipedia.org/wiki/Lignite
+chalk,https://en.wikipedia.org/wiki/Chalk
+coquina,https://en.wikipedia.org/wiki/Coquina
+fossiliferous,https://en.wikipedia.org/wiki/Fossiliferous_limestone
+oolite,https://en.wikipedia.org/wiki/Oolite
+travertine,https://en.wikipedia.org/wiki/Travertine
