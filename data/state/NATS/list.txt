@@ -3,7 +3,7 @@ aragonite
 azurite
 calcite
 dolomite
-malacite
+malachite
 copper
 diamond
 gold
