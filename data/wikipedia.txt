@@ -85,10 +85,10 @@ dolostone,https://en.wikipedia.org/wiki/Dolomite_(rock)
 sandstone,https://en.wikipedia.org/wiki/Sandstone
 shale,https://en.wikipedia.org/wiki/Shale
 anthracite,https://en.wikipedia.org/wiki/Anthracite
-bituminous,https://en.wikipedia.org/wiki/Bituminous_coal
+bituminous coal,https://en.wikipedia.org/wiki/Bituminous_coal
 lignite,https://en.wikipedia.org/wiki/Lignite
 chalk,https://en.wikipedia.org/wiki/Chalk
 coquina,https://en.wikipedia.org/wiki/Coquina
-fossiliferous,https://en.wikipedia.org/wiki/Fossiliferous_limestone
+fossiliferous limestone,https://en.wikipedia.org/wiki/Fossiliferous_limestone
 oolite,https://en.wikipedia.org/wiki/Oolite
 travertine,https://en.wikipedia.org/wiki/Travertine
