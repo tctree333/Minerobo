@@ -2,7 +2,7 @@ from get_images import get_images
 
 config = {
     "bot_description": "Minerobo - A SciOly Discord Bot for Rock and Mineral ID",  # short bot description
-    "bot_signature": "Minerobo ID - A Rock and Mineral ID Bot",  # signature for embeds
+    "bot_signature": "Minerobo - A Rock and Mineral ID Bot",  # signature for embeds
     "prefixes": ["r.", "R."],  # bot prefixes, primary prefix is first in list
     "id_type": "rocks",  # stars, fossils, muscles, etc. - plural noun
     "github_image_repo_url": None,  # link to github image repo
