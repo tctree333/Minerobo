@@ -1,3 +1,5 @@
+from get_images import get_images
+
 config = {
     "bot_description": "Minerobo - A SciOly Discord Bot for Rock and Mineral ID",  # short bot description
     "bot_signature": "Minerobo ID - A Rock and Mineral ID Bot",  # signature for embeds
@@ -8,8 +10,10 @@ config = {
     "source_link": "placeholder",  # link to source code (may be hosted on github)
     "name": "minerobo",  # all lowercase, no spaces, doesn't really matter what this is
     # "members_intent": False,  # whether the privileged members intent is enabled in the developer portal
-    # "download_func": None,  # asyncronous function that downloads images locally to download_dir
-    # "download_dir": "github_download/",  # local directory containing media (images)
+    "download_func": get_images,  # asyncronous function that downloads images locally to download_dir
+    "refresh_images": False,  # whether to run download_func once every 24 hours with None as an argument
+    "evict_images": True,  # whether to delete items from download_dir
+    "download_dir": "images/",  # local directory containing media (images)
     # "data_dir": "data/",  # local directory containing the id data
     "group_dir": "categories/",  # directory within data_dir containing group lists
     # "state_dir": "state/",  # directory within data_dir containing alternate lists
