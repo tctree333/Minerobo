@@ -20,7 +20,7 @@ hematite,https://www.minerals.net/mineral/hematite.aspx
 magnetite,https://www.minerals.net/mineral/magnetite.aspx
 apatite,https://www.minerals.net/mineral/apatite.aspx
 barite,https://www.minerals.net/mineral/barite.aspx
-celestite,https://www.minerals.net/mineral/celestine.aspx
+celestine,https://www.minerals.net/mineral/celestine.aspx
 alabaster,https://en.wikipedia.org/wiki/Alabaster#Gypsum_alabaster
 satin spar,https://www.mindat.org/min-8574.html
 selenite,https://en.wikipedia.org/wiki/Selenite_(mineral)
