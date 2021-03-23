@@ -3,7 +3,7 @@ onyx
 amethyst
 chalcedony
 citrine
-crystal,rock crystal
+rock crystal,crystal
 jasper
 milky quartz
 opal

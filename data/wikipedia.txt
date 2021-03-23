@@ -54,7 +54,7 @@ onyx,https://www.minerals.net/gemstone/onyx_gemstone.aspx
 amethyst,https://www.minerals.net/mineral/amethyst.aspx
 chalcedony,https://www.minerals.net/mineral/chalcedony.aspx
 citrine,https://www.minerals.net/mineral/citrine.aspx
-crystal,https://en.wikipedia.org/wiki/Quartz#Varieties_(according_to_color)
+rock crystal,https://en.wikipedia.org/wiki/Quartz#Varieties_(according_to_color)
 jasper,https://www.minerals.net/mineral/jasper.aspx
 milky quartz,http://www.galleries.com/Milky_quartz
 opal,https://www.minerals.net/mineral/opal.aspx
