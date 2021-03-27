@@ -44,10 +44,10 @@ config = {
     # "disable_extensions": [],  # bot extensions to disable (media, check, skip, hint, score, sessions, race, other)
     # "custom_extensions": [],  # custom bot extensions to enable
     "sentry": True,  # enable sentry.io error tracking
-    "local_redis": True,  # use a local redis server instead of a remote url
+    "local_redis": False,  # use a local redis server instead of a remote url
     # "bot_token_env": "token",  # name of environment variable containing the discord bot token
     # "sentry_dsn_env": "SENTRY_DISCORD_DSN",  # name of environment variable containing the sentry dsn
-    # "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
+    "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
     "backups_channel": 820738627599728658, # discord channel id to upload database backups (None/False to disable)
     # "backups_dir": "backups/",  # directory to put database backup files before uploading
     "holidays": True,  # enable special features on select holidays
