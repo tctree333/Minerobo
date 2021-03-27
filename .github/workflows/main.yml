@@ -25,3 +25,4 @@ jobs:
             dokku app name: minerobo
             dokku host: ${{ secrets.DOKKU_HOST }}
             ssh private key: ${{ secrets.PRIVATE_KEY }}
+            deploy branch: main
