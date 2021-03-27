@@ -3,8 +3,6 @@ import os
 import re
 from typing import List, Tuple, Optional
 
-import time
-
 import aiohttp
 from bs4 import BeautifulSoup
 from sciolyid.util import cache
@@ -24,7 +22,6 @@ logger = logging.getLogger("minerobo")
 
 async def get_images(data, category, item):
     logger.info(f"downloading images for {item}")
-    logger.debug(f"start {time.perf_counter()}")
     if category is None or item is None:
         return
     directory = f"bot_files/images/{category}/{item}/"
@@ -43,13 +40,11 @@ async def get_images(data, category, item):
             index, urls = await get_urls_by_photoscroll(session, item, index)
         await download_images(session, urls, directory)
     data.database.zadd("image.index:global", {item: index})
-    logger.debug(f"end {time.perf_counter()}")
 
 
 @cache()
 async def get_mineral_id(item: str, session: aiohttp.ClientSession) -> Optional[int]:
     """Return Mindat's ID for the specimen."""
-    logger.debug(f"getting mineral id {time.perf_counter()}")
 
     async with session.head(f"{BASE_URL}/search.php?name={item}") as resp:
         match = mineral_id_regex.match(resp.headers.get("location", ""))
@@ -82,7 +77,6 @@ async def get_urls_by_mineral_id(
     This function returns up to IMAGES_PER_DOWNLOAD number of images.
     The new index is returned as the first element of the tuple.
     """
-    logger.debug(f"getting urls {time.perf_counter()}")
 
     # calculate the page we need to go to, 20 per page
     page = (index // 20) + 1
@@ -90,18 +84,14 @@ async def get_urls_by_mineral_id(
         f"{BASE_URL}/gallery.php?min={mineral_id}&cf_pager_page={page}"
     ) as resp:
         text = await resp.text()
-    logger.debug(f"fetch end {time.perf_counter()}")
 
     soup = BeautifulSoup(text, "lxml")
-    logger.debug(f"soup end {time.perf_counter()}")
     raw_image_urls = tuple(
         map(lambda x: BASE_URL + x.find("img")["src"], soup(class_="userbigpicture"))
     )
-    logger.debug(time.perf_counter())
     match_page = page_number_regex.match(
         soup.find(class_="pnpagecount").find("b").string
     )
-    logger.debug(time.perf_counter())
     if not match_page:
         raise ValueError("No page number found!")
     current_page = int(match_page.group(1))
@@ -180,9 +170,7 @@ async def download_images(
     session: aiohttp.ClientSession, urls: Tuple[str, ...], directory: str
 ):
     """Manages image downloads."""
-    logger.debug(f"downloading images {time.perf_counter()}")
     for path, url in zip(map(lambda x: f"{directory}{x}.", range(len(urls))), urls):
-        logger.debug(time.perf_counter())
         try:
             async with session.get(url) as resp:
                 with open(
