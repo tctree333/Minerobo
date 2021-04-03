@@ -144,7 +144,7 @@ async def get_urls_by_photoscroll(
         for _ in range(pages - 2):
             async with session.head(BASE_URL + "/photoscroll.php?id=1"):
                 pass
-        async with session.get(BASE_URL + "/photoscroll.php?id=1"):
+        async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
             text = await resp.text()
             if not text:
                 return (0, None)
@@ -158,7 +158,7 @@ async def get_urls_by_photoscroll(
         image_urls = raw_image_urls[-IMAGES_PER_DOWNLOAD:]
 
     if index < 50 or (index - 50) % 15 == 0:
-        async with session.get(BASE_URL + "/photoscroll.php?id=1"):
+        async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
             text = await resp.text()
             if not text:
                 index = 0
