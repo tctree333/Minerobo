@@ -43,12 +43,13 @@ async def get_urls(
     item: str,
     index: int,
     count: int = IMAGES_PER_DOWNLOAD,
+    force: bool = True,
 ) -> Tuple[int, Tuple[str, ...]]:
     mineral_id = await get_mineral_id(item, session)
     if mineral_id:
-        return await get_urls_by_mineral_id(session, mineral_id, index, count)
+        return await get_urls_by_mineral_id(session, mineral_id, index, count, force)
     else:
-        return await get_urls_by_photoscroll(session, item, index, count)
+        return await get_urls_by_photoscroll(session, item, index, count, force)
 
 
 @cache()
@@ -63,7 +64,11 @@ async def get_mineral_id(item: str, session: aiohttp.ClientSession) -> Optional[
 
 
 async def get_urls_by_mineral_id(
-    session: aiohttp.ClientSession, mineral_id: int, index: int, images_to_download: int
+    session: aiohttp.ClientSession,
+    mineral_id: int,
+    index: int,
+    images_to_download: int,
+    force: bool = True,
 ) -> Tuple[int, Tuple[str, ...]]:
     """Return URLS of images of the specimen to download.
 
@@ -85,6 +90,8 @@ async def get_urls_by_mineral_id(
         text = await resp.text()
 
     soup = BeautifulSoup(text, "lxml")
+    if soup.find(string="No photos found"):
+        return (0, tuple())
     raw_image_urls = tuple(
         map(lambda x: BASE_URL + x.find("img")["src"], soup(class_="userbigpicture"))
     )
@@ -96,10 +103,14 @@ async def get_urls_by_mineral_id(
     current_page = int(match_page.group(1))
     total_pages = int(match_page.group(2))
 
+    if current_page > total_pages:
+        return (0, tuple())
+
     image_urls = raw_image_urls[index % 20 : (index % 20) + images_to_download]
     index += images_to_download
     if len(image_urls) < images_to_download:
-        image_urls = raw_image_urls[-images_to_download:]
+        if force:
+            image_urls = raw_image_urls[-images_to_download:]
         if current_page >= total_pages:
             index = 0
     if index % 20 == 0 and current_page >= total_pages:
@@ -113,6 +124,7 @@ async def get_urls_by_photoscroll(
     specimen_name: str,
     index: int,
     images_to_download: int,
+    force: bool = True,
 ) -> Tuple[int, Tuple[str, ...]]:
     """Return URLS of images of the specimen to download.
 
@@ -154,12 +166,12 @@ async def get_urls_by_photoscroll(
         raw_image_urls = tuple(map(lambda x: BASE_URL + x["src"], soup("img")))
 
     offset = index if index < 50 else (index - 50) % 15
-    image_urls = raw_image_urls[offset : offset + 5]
+    image_urls = raw_image_urls[offset : offset + images_to_download]
     index += images_to_download
-    if len(image_urls) < images_to_download:
+    if force and len(image_urls) < images_to_download:
         image_urls = raw_image_urls[-images_to_download:]
 
-    if index < 50 or (index - 50) % 15 == 0:
+    if image_urls[-1] == raw_image_urls[-1]:
         async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
             text = await resp.text()
             if not text:
