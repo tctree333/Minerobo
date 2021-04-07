@@ -13,7 +13,7 @@ config = {
     "download_func": get_images,  # asyncronous function that downloads images locally to download_dir
     "refresh_images": False,  # whether to run download_func once every 24 hours with None as an argument
     "evict_images": True,  # whether to delete items from download_dir
-    "evict_frequency": 5.0,  # how often to run eviction function
+    "evict_frequency": 10.0,  # how often to run eviction function
     "evict_threshold": 20,  # the number of times a specimen is seen before eviction
     "max_evict": 1,  # how many specimens to evict at a time
     "evict_func": get_images,  # function to run during eviction

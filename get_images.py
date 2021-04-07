@@ -11,9 +11,9 @@ import mindat
 
 CONTENT_TYPE_LOOKUP = {"image/png": "png", "image/jpeg": "jpg"}
 
-MAX_IMAGES_SAVED = 20
+MAX_IMAGES_SAVED = 40
 CYCLE_DOWNLOAD_COUNT = 2
-FIRST_DOWNLOAD_COUNT = 5
+FIRST_DOWNLOAD_COUNT = 4
 
 logger = logging.getLogger("minerobo")
 
