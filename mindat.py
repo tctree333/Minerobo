@@ -87,6 +87,8 @@ async def get_urls_by_mineral_id(
     async with session.get(
         f"{BASE_URL}/gallery.php?min={mineral_id}&cf_pager_page={page}"
     ) as resp:
+        if resp.status != 200:
+            return (0, tuple())
         text = await resp.text()
 
     soup = BeautifulSoup(text, "lxml")
@@ -145,7 +147,10 @@ async def get_urls_by_photoscroll(
         async with session.get(
             f"{BASE_URL}/photoscroll.php?searchbox={specimen_name}"
         ) as resp:
+            if resp.status != 200:
+                return (0, tuple())
             text = await resp.text()
+
         soup = BeautifulSoup(text, "lxml")
         raw_image_urls = tuple(
             map(lambda x: BASE_URL + x["src"], soup.find(id="photoscroll")("img"))
@@ -159,9 +164,12 @@ async def get_urls_by_photoscroll(
             async with session.head(BASE_URL + "/photoscroll.php?id=1"):
                 pass
         async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
+            if resp.status != 200:
+                return (0, tuple())
             text = await resp.text()
             if not text:
                 return (0, tuple())
+
         soup = BeautifulSoup(text, "lxml")
         raw_image_urls = tuple(map(lambda x: BASE_URL + x["src"], soup("img")))
 
@@ -173,8 +181,11 @@ async def get_urls_by_photoscroll(
 
     if image_urls[-1] == raw_image_urls[-1]:
         async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
-            text = await resp.text()
-            if not text:
+            if resp.status == 200:
+                text = await resp.text()
+                if not text:
+                    index = 0
+            else:
                 index = 0
 
     return (index, image_urls)
