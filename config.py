@@ -23,6 +23,7 @@ config = {
     # "state_dir": "state/",  # directory within data_dir containing alternate lists
     # "default_state_list": "NATS",  # name of the "state" that should be considered default
     # "wikipedia_file": "wikipedia.txt",  # filename within data_dir containing wiki urls for every item
+    "prompt_file": "prompt.txt",
     # "meme_file": None,
     # "logs": True,  # enable logging
     # "log_dir": "logs/",  # directory for text logs/backups
@@ -52,11 +53,10 @@ config = {
     # "bot_token_env": "token",  # name of environment variable containing the discord bot token
     # "sentry_dsn_env": "SENTRY_DISCORD_DSN",  # name of environment variable containing the sentry dsn
     "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
-    "backups_channel": 820738627599728658, # discord channel id to upload database backups (None/False to disable)
+    "backups_channel": 820738627599728658,  # discord channel id to upload database backups (None/False to disable)
     # "backups_dir": "backups/",  # directory to put database backup files before uploading
     "holidays": True,  # enable special features on select holidays
     "sendas": True,  # enable the "sendas" command
-
     ### WEB STUFF
     # "client_id": 821143596232474684,  # discord client id
     # "base_image_url": None,  # root of where images are hosted

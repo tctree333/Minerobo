@@ -1,0 +1,10 @@
+agate,quartz
+onyx,quartz
+amethyst,quartz
+chalcedony,quartz
+citrine,quartz
+rock crystal,crystal,quartz
+jasper,quartz
+milky quartz,quartz
+opal,quartz
+rose quartz,quartz
