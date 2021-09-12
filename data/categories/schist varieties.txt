@@ -1,0 +1,3 @@
+garnet schist
+mica schist
+soapstone,talc schist

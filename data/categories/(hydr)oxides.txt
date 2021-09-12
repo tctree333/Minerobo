@@ -1,6 +1,8 @@
-bauxite
 corundum
 goethite
 limonite
 hematite
 magnetite
+pyrolusite
+rutile
+zincite

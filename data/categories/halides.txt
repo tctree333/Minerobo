@@ -1,2 +1,2 @@
 fluorite
-halite
+halite,rock salt

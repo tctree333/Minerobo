@@ -5,6 +5,9 @@ gabbro
 granite
 obsidian
 pegmatite
+peridotite
 pumice
 rhyolite
 scoria
+syenite
+tuff

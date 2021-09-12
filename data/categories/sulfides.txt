@@ -1,4 +1,6 @@
 bornite
 chalcopyrite
+galena
 pyrite
 sphalerite
+stibnite

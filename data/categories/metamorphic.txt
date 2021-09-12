@@ -1,7 +1,7 @@
+amphibolite
 gneiss
 marble
 phyllite
 quartzite
-garnet schist
-mica schist
+serpentinite
 slate

@@ -1,8 +1,10 @@
-arkose
+banded iron
+bauxite
 breccia
 chert
 conglomerate
 diatomite
 dolostone
-sandstone
+rock salt,halite
+rock gypsum,gypsum
 shale

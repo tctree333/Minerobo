@@ -15,40 +15,30 @@ scoria
 syenite
 tuff
 augite
-rhodonite
-spodumene
 fluorite
 halite
 almandine
 aventurine
 agate
 amethyst
-citrine
-jasper
 milky quartz
 opal
 rock crystal
 rose quartz
-smoky quartz
 biotite
-lepidolite
 muscovite
 aragonite
 azurite
 calcite
 dolomite
 malachite
-rhodochrosite
-bornite
 chalcopyrite
 galena
 pyrite
 sphalerite
-stibnite
 ulexite
 albite
 labradorite
-apophyllite
 beryl
 epidote
 kaolinite
@@ -56,12 +46,9 @@ kyanite
 olivine
 sodalite
 staurolite
-stilbite
 talc
 topaz
 tourmaline group
-willemite
-zircon
 copper
 diamond
 gold
@@ -75,27 +62,18 @@ alabaster
 satin spar
 selenite
 barite
-celestite
 chalk
 coquina
 fossiliferous limestone
 oolitic limestone
 travertine
 hornblende
-tremolite
-actinolite
 apatite
-pyromorphite
-turquoise
-vanadinite
 corundum
 goethite
 limonite
 hematite
 magnetite
-pyrolusite
-rutile
-zincite
 garnet schist
 mica schist
 soapstone

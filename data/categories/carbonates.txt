@@ -3,3 +3,4 @@ azurite
 calcite
 dolomite
 malachite
+rhodochrosite
