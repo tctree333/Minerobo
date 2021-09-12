@@ -1,0 +1,10 @@
+andesite
+basalt
+diorite
+gabbro
+granite
+obsidian
+pegmatite
+pumice
+rhyolite
+scoria

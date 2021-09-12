@@ -1,0 +1,3 @@
+anthracite,anthracite coal
+bituminous coal,bituminous
+lignite

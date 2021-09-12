@@ -1,0 +1,8 @@
+arkose
+breccia
+chert
+conglomerate
+diatomite
+dolostone
+sandstone
+shale

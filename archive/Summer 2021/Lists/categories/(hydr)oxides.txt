@@ -1,0 +1,6 @@
+bauxite
+corundum
+goethite
+limonite
+hematite
+magnetite

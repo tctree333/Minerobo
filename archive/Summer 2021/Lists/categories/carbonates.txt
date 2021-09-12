@@ -1,0 +1,5 @@
+aragonite
+azurite
+calcite
+dolomite
+malachite

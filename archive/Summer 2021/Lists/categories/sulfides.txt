@@ -1,0 +1,4 @@
+bornite
+chalcopyrite
+pyrite
+sphalerite

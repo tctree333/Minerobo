@@ -1,0 +1,94 @@
+ulexite
+aragonite
+azurite
+calcite
+dolomite
+malachite
+copper
+diamond
+gold
+graphite
+silver
+sulfur
+fluorite
+halite
+bauxite
+corundum
+goethite
+limonite
+hematite
+magnetite
+apatite
+barite
+celestine
+alabaster
+satin spar
+selenite
+bornite
+chalcopyrite
+pyrite
+sphalerite
+beryl
+epidote
+kaolinite
+olivine
+sodalite
+staurolite
+talc
+topaz
+tourmaline group
+hornblende
+tremolite
+albite
+amazonite
+orthoclase
+microcline
+almandine
+biotite
+lepidolite
+muscovite
+augite
+rhodonite
+agate
+onyx
+amethyst
+chalcedony
+citrine
+rock crystal
+jasper
+milky quartz
+opal
+rose quartz
+gneiss
+marble
+phyllite
+quartzite
+garnet schist
+mica schist
+slate
+andesite
+basalt
+diorite
+gabbro
+granite
+obsidian
+pegmatite
+pumice
+rhyolite
+scoria
+arkose
+breccia
+chert
+conglomerate
+diatomite
+dolostone
+sandstone
+shale
+anthracite
+bituminous coal
+lignite
+chalk
+coquina
+fossiliferous limestone
+oolite
+travertine

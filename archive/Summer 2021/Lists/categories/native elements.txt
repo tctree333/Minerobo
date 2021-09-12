@@ -1,0 +1,6 @@
+copper
+diamond
+gold
+graphite
+silver
+sulfur
