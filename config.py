@@ -33,18 +33,28 @@ config = {
     "authors": "person_v1.32",  # creator names
     "category_name": "specimen category",  # space thing, bird order, muscle group - what you are splitting groups by
     "category_aliases": {  # aliases for categories
-        "native elements": ["native"],
-        "(hydr)oxides": ["hydroxides", "oxides", "hydroxides/oxides"],
+        "native elements": ["native", "elements"],
+        "(hydr)oxides": [
+            "hydroxides",
+            "oxides",
+            "hydroxides/oxides",
+            "hydroxide",
+            "oxide",
+        ],
         "gypsum varieties": ["gypsum"],
         "amphibole group": ["amphibole"],
         "feldspar - plagioclase": ["plagioclase"],
-        "feldspar - pottasium": ["pottasium"],
+        "feldspar - potassium": ["potassium"],
         "garnet group": ["garnet"],
         "mica group": ["mica"],
         "pyroxine group": ["pyroxine"],
         "quartz varieties": ["quartz"],
         "coal varieties": ["coal"],
+        "schist varieties": ["schist"],
         "limestone varieties": ["limestone"],
+        "silicates": ["silicate"],
+        "sulfides": ["sulfide"],
+        "sulfates": ["sulfate"],
     },
     # "disable_extensions": [],  # bot extensions to disable (media, check, skip, hint, score, sessions, race, other)
     # "custom_extensions": [],  # custom bot extensions to enable
