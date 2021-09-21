@@ -47,7 +47,7 @@ config = {
         "feldspar - potassium": ["potassium"],
         "garnet group": ["garnet"],
         "mica group": ["mica"],
-        "pyroxine group": ["pyroxine"],
+        "pyroxene group": ["pyroxene"],
         "quartz varieties": ["quartz"],
         "coal varieties": ["coal"],
         "schist varieties": ["schist"],
