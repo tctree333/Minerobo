@@ -142,36 +142,14 @@ async def get_urls_by_photoscroll(
     The new index is returned as the first element of the tuple.
     """
     # calculate the page we need to go to, 50 on first page, 15 per page after
-    pages = 1 if index < 50 else ((index - 50) // 15) + 2
-    if pages == 1:
-        async with session.get(
-            f"{BASE_URL}/photoscroll.php?searchbox={specimen_name}"
-        ) as resp:
-            if resp.status != 200:
-                return (0, tuple())
-            text = await resp.text()
-
-        soup = BeautifulSoup(text, "lxml")
-        raw_image_urls = tuple(
-            map(lambda x: BASE_URL + x["src"], soup.find(id="photoscroll")("img"))
-        )
+    page = 1 if index < 50 else ((index - 50) // 15) + 2
+    if page == 1:
+        raw_image_urls = await _parse_photoscroll_first_page(session, specimen_name)
     else:
-        async with session.head(
-            f"{BASE_URL}/photoscroll.php?searchbox={specimen_name}"
-        ):
-            pass
-        for _ in range(pages - 2):
-            async with session.head(BASE_URL + "/photoscroll.php?id=1"):
-                pass
-        async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
-            if resp.status != 200:
-                return (0, tuple())
-            text = await resp.text()
-            if not text:
-                return (0, tuple())
+        raw_image_urls = await _parse_photoscroll_nth_page(session, specimen_name, page)
 
-        soup = BeautifulSoup(text, "lxml")
-        raw_image_urls = tuple(map(lambda x: BASE_URL + x["src"], soup("img")))
+    if not raw_image_urls:
+        return (0, tuple())
 
     offset = index if index < 50 else (index - 50) % 15
     image_urls = raw_image_urls[offset : offset + images_to_download]
@@ -189,3 +167,46 @@ async def get_urls_by_photoscroll(
                 index = 0
 
     return (index, image_urls)
+
+
+async def _parse_photoscroll_first_page(
+    session: aiohttp.ClientSession, specimen_name: str
+) -> Tuple[str, ...]:
+    """Parse the first page of photoscroll and return the raw URLs of
+    images of the specimen to download.
+    """
+    async with session.get(
+        f"{BASE_URL}/photoscroll.php?searchbox={specimen_name}"
+    ) as resp:
+        if resp.status != 200:
+            return tuple()
+        text = await resp.text()
+
+    soup = BeautifulSoup(text, "lxml")
+    raw_image_urls = tuple(
+        map(lambda x: BASE_URL + x["src"], soup.find(id="photoscroll")("img"))
+    )
+    return raw_image_urls
+
+
+async def _parse_photoscroll_nth_page(
+    session: aiohttp.ClientSession, specimen_name: str, pages: int
+) -> Tuple[str, ...]:
+    """Parse the nth page of photoscroll and return the raw URLs of
+    images of the specimen to download.
+    """
+    async with session.head(f"{BASE_URL}/photoscroll.php?searchbox={specimen_name}"):
+        pass
+    for _ in range(pages - 2):
+        async with session.head(BASE_URL + "/photoscroll.php?id=1"):
+            pass
+    async with session.get(BASE_URL + "/photoscroll.php?id=1") as resp:
+        if resp.status != 200:
+            return tuple()
+        text = await resp.text()
+        if not text:
+            return tuple()
+
+    soup = BeautifulSoup(text, "lxml")
+    raw_image_urls = tuple(map(lambda x: BASE_URL + x["src"], soup("img")))
+    return raw_image_urls
