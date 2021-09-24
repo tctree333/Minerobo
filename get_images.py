@@ -33,12 +33,14 @@ async def get_images(data, category, item):
 
     index = int(data.database.zscore("image.index:global", item) or 0)
     async with aiohttp.ClientSession() as session:
-        new_index, urls = await mindat.get_urls(session, item, index, count, existing_files_count == 0)
+        new_index, urls = await mindat.get_urls(
+            session, item, index, count, existing_files_count == 0
+        )
 
         if existing_files_count >= MAX_IMAGES_SAVED:
             index = new_index
             await download_images(session, urls, directory)
-        elif len(urls) != 0:
+        elif not urls:
             index += len(urls)
             await download_images(session, urls, directory)
     data.database.zadd("image.index:global", {item: index})
