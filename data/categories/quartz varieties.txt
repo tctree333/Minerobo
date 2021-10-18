@@ -1,6 +1,7 @@
 aventurine
 agate
-amethyst
+amethyst 
+chalcedony
 citrine
 jasper
 milky quartz
