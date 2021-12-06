@@ -116,3 +116,6 @@ phyllite
 quartzite
 serpentinite
 slate
+arkose
+greywacke
+quartz sandstone

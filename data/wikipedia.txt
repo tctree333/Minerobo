@@ -116,3 +116,6 @@ phyllite,https://geology.com/rocks/phyllite.shtml
 quartzite,https://en.wikipedia.org/wiki/Quartzite
 serpentinite,https://en.wikipedia.org/wiki/Serpentinite
 slate,https://en.wikipedia.org/wiki/Slate
+arkose,https://en.wikipedia.org/wiki/Arkose
+greywacke,https://en.wikipedia.org/wiki/Greywacke
+quartz sandstone,https://en.wikipedia.org/wiki/Sandstone

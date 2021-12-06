@@ -41,6 +41,7 @@ config = {
             "hydroxide",
             "oxide",
         ],
+        "sandstone varieties": ["sandstone"],
         "gypsum varieties": ["gypsum"],
         "amphibole group": ["amphibole"],
         "feldspar - plagioclase": ["plagioclase"],
