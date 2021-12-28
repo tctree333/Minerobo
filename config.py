@@ -63,7 +63,7 @@ config = {
     # "custom_extensions": [],  # custom bot extensions to enable
     "sentry": True,  # enable sentry.io error tracking
     "local_redis": False,  # use a local redis server instead of a remote url
-    "bot_token_env": "BOT_TOKEN",  # name of environment variable containing the discord bot token
+    # "bot_token_env": "token",  # name of environment variable containing the discord bot token
     # "sentry_dsn_env": "SENTRY_DISCORD_DSN",  # name of environment variable containing the sentry dsn
     "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
     "backups_channel": None,  # discord channel id to upload database backups (None/False to disable)
