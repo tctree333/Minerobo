@@ -1,4 +1,6 @@
-from get_images import get_images
+import os
+
+# from get_images import get_images
 
 config = {
     "bot_description": "Minerobo - A SciOly Discord Bot for Rock and Mineral ID",  # short bot description
@@ -10,13 +12,13 @@ config = {
     "source_link": "placeholder",  # link to source code (may be hosted on github)
     "name": "minerobo",  # all lowercase, no spaces, doesn't really matter what this is
     # "members_intent": False,  # whether the privileged members intent is enabled in the developer portal
-    "download_func": get_images,  # asyncronous function that downloads images locally to download_dir
-    "refresh_images": False,  # whether to run download_func once every 24 hours with None as an argument
-    "evict_images": True,  # whether to delete items from download_dir
-    "evict_frequency": 10.0,  # how often to run eviction function
-    "evict_threshold": 20,  # the number of times a specimen is seen before eviction
-    "max_evict": 1,  # how many specimens to evict at a time
-    "evict_func": get_images,  # function to run during eviction
+    # "download_func": get_images,  # asyncronous function that downloads images locally to download_dir
+    # "refresh_images": False,  # whether to run download_func once every 24 hours with None as an argument
+    # "evict_images": True,  # whether to delete items from download_dir
+    # "evict_frequency": 10.0,  # how often to run eviction function
+    # "evict_threshold": 20,  # the number of times a specimen is seen before eviction
+    # "max_evict": 1,  # how many specimens to evict at a time
+    # "evict_func": get_images,  # function to run during eviction
     "download_dir": "images/",  # local directory containing media (images)
     # "data_dir": "data/",  # local directory containing the id data
     "group_dir": "categories/",  # directory within data_dir containing group lists
@@ -61,10 +63,10 @@ config = {
     # "custom_extensions": [],  # custom bot extensions to enable
     "sentry": True,  # enable sentry.io error tracking
     "local_redis": False,  # use a local redis server instead of a remote url
-    # "bot_token_env": "token",  # name of environment variable containing the discord bot token
+    "bot_token_env": "BOT_TOKEN",  # name of environment variable containing the discord bot token
     # "sentry_dsn_env": "SENTRY_DISCORD_DSN",  # name of environment variable containing the sentry dsn
     "redis_env": "REDIS_URL",  # name of environment variable containing the redis database url
-    "backups_channel": 820738627599728658,  # discord channel id to upload database backups (None/False to disable)
+    "backups_channel": None,  # discord channel id to upload database backups (None/False to disable)
     # "backups_dir": "backups/",  # directory to put database backup files before uploading
     "holidays": True,  # enable special features on select holidays
     "sendas": True,  # enable the "sendas" command
@@ -74,8 +76,8 @@ config = {
     # "validation_repo_url": None,  # github repo where images are temporarily held
     # "tmp_upload_dir": "uploaded/",  # directory for temporary file storage
     # "validation_local_dir": "validation_repo/",  # directory for cloning the validation repo
-    # "git_token_env": "GIT_TOKEN",  # environment variable with github auth token
-    # "git_user_env": "GIT_USERNAME",  # environment variable with github auth token
+    "git_token_env": "GIT_TOKEN",  # environment variable with github auth token
+    "git_user_env": "GIT_USERNAME",  # environment variable with github auth token
     # "git_email_env": "GIT_EMAIL",  # environment variable with github auth token
     # "validation_repo_dir": "",  # directory in validation repo to store files
     # "hashes_url": [],  # urls to raw hashes.csv file in both image repos
@@ -89,3 +91,10 @@ config = {
     # "discord_webhook_env": "DISCORD_WEBHOOK_URL",  # webhook url for discord notification log
     # "verification_server": None,  # invite to special discord server for people adding images, default to support server
 }
+
+config["github_image_repo_url"] = "https://{}:{}@github.com/{}/{}".format(
+    os.getenv(config["git_user_env"]),
+    os.getenv(config["git_token_env"]),
+    os.getenv(config["git_user_env"]),
+    "Minerobo-Images",
+)
