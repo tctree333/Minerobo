@@ -1,8 +1,9 @@
 import os
+from typing import Dict, Any
 
 # from get_images import get_images
 
-config = {
+config: Dict[str, Any] = {
     "bot_description": "Minerobo - A SciOly Discord Bot for Rock and Mineral ID",  # short bot description
     "bot_signature": "Minerobo - A Rock and Mineral ID Bot",  # signature for embeds
     "prefixes": ["r.", "R."],  # bot prefixes, primary prefix is first in list
@@ -71,7 +72,7 @@ config = {
     "holidays": True,  # enable special features on select holidays
     "sendas": True,  # enable the "sendas" command
     ### WEB STUFF
-    # "client_id": 821143596232474684,  # discord client id
+    "client_id": 821143596232474684,  # discord client id
     # "base_image_url": None,  # root of where images are hosted
     # "validation_repo_url": None,  # github repo where images are temporarily held
     # "tmp_upload_dir": "uploaded/",  # directory for temporary file storage
@@ -90,11 +91,33 @@ config = {
     # "client_secret_env": "DISCORD_CLIENT_SECRET",  # name of environment variable for discord client secret
     # "discord_webhook_env": "DISCORD_WEBHOOK_URL",  # webhook url for discord notification log
     # "verification_server": None,  # invite to special discord server for people adding images, default to support server
+    "disable_upload": True,  # disable user uploads
+    # "disable_validation": False,  # disable validation
+    # "validation_thresholds": {  # number of flags of each type to move the image on during validation
+    #     "invalid": 3,
+    #     "duplicate": 3,
+    #     "valid": 3,
+    # },
 }
 
+user: str = config["git_user_env"]
+token: str = config["git_token_env"]
+
 config["github_image_repo_url"] = "https://{}:{}@github.com/{}/{}".format(
-    os.getenv(config["git_user_env"]),
-    os.getenv(config["git_token_env"]),
-    os.getenv(config["git_user_env"]),
+    os.getenv(user),
+    os.getenv(token),
+    os.getenv(user),
+    "Minerobo-Images",
+)
+config["validation_repo_url"] = "https://{}:{}@github.com/{}/{}".format(
+    os.getenv(user),
+    os.getenv(token),
+    os.getenv(user),
+    "Unverified-Minerobo-Images",
+)
+config["base_image_url"] = "https://{}:{}@raw.githubusercontent.com/{}/{}/main/".format(
+    os.getenv(user),
+    os.getenv(token),
+    os.getenv(user),
     "Minerobo-Images",
 )
