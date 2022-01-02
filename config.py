@@ -121,3 +121,31 @@ config["base_image_url"] = "https://{}:{}@raw.githubusercontent.com/{}/{}/main/"
     os.getenv(user),
     "Minerobo-Images",
 )
+config["hashes_url"] = [
+    "https://{}:{}@raw.githubusercontent.com/{}/{}/main/hashes.csv".format(
+        os.getenv(user),
+        os.getenv(token),
+        os.getenv(user),
+        "Minerobo-Images",
+    ),
+    "https://{}:{}@raw.githubusercontent.com/{}/{}/main/hashes.csv".format(
+        os.getenv(user),
+        os.getenv(token),
+        os.getenv(user),
+        "Unverified-Minerobo-Images",
+    ),
+]
+config["ids_url"] = [
+    "https://{}:{}@raw.githubusercontent.com/{}/{}/main/ids.csv".format(
+        os.getenv(user),
+        os.getenv(token),
+        os.getenv(user),
+        "Minerobo-Images",
+    ),
+    "https://{}:{}@raw.githubusercontent.com/{}/{}/main/ids.csv".format(
+        os.getenv(user),
+        os.getenv(token),
+        os.getenv(user),
+        "Unverified-Minerobo-Images",
+    ),
+]
