@@ -90,6 +90,9 @@ config: Dict[str, Any] = {
     # "frontend_url_env": "FRONTEND_URL",  # name of environment variable for frontend url
     # "client_secret_env": "DISCORD_CLIENT_SECRET",  # name of environment variable for discord client secret
     # "discord_webhook_env": "DISCORD_WEBHOOK_URL",  # webhook url for discord notification log
+    "discord_webhook_disable": [
+        "verify"
+    ],  # types of webhooks to disable ("add", "verify", "valid", "error")
     # "verification_server": None,  # invite to special discord server for people adding images, default to support server
     "disable_upload": True,  # disable user uploads
     # "disable_validation": False,  # disable validation
