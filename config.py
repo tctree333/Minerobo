@@ -34,6 +34,12 @@ config: Dict[str, Any] = {
     "short_id_type": "r",  # short (usually 1 letter) form of id_type, used as alias for the pic command
     "invite": "https://discord.com/api/oauth2/authorize?client_id=821143596232474684&permissions=51200&scope=bot",  # bot server invite link
     "authors": "person_v1.32",  # creator names
+    "extra_about_fields": [
+        {
+            "name": "Attribution",
+            "value": "See https://sciolyid.org/minerobo/attribution/ for image sources.",
+        }
+    ],  # list of dicts containing keys "name" and "value" to be added to the botinfo command
     "category_name": "specimen category",  # space thing, bird order, muscle group - what you are splitting groups by
     "category_aliases": {  # aliases for categories
         "native elements": ["native", "elements"],
