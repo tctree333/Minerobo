@@ -1,2 +1,2 @@
-:repo:deb https://packagecloud.io/github/git-lfs/ubuntu/ focal main
+:repo:deb [trusted=yes] https://packagecloud.io/github/git-lfs/ubuntu/ focal main
 git-lfs
