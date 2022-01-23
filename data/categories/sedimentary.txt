@@ -1,4 +1,4 @@
-banded iron
+banded iron,banded iron formation,bif
 bauxite
 breccia
 chert
