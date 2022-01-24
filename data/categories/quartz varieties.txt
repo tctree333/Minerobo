@@ -8,4 +8,4 @@ milky quartz
 opal
 rock crystal,crystal
 rose quartz
-smoky quartz
+smoky quartz,smoky
