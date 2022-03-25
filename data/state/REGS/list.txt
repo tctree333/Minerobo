@@ -17,10 +17,12 @@ tuff
 augite
 fluorite
 halite
+garnet group
 almandine
 aventurine
 agate
 amethyst
+chalcedony
 milky quartz
 opal
 rock crystal
@@ -64,11 +66,11 @@ selenite
 barite
 chalk
 coquina
-fossiliferous limestone
+fossil limestone
 oolitic limestone
 travertine
 hornblende
-apatite
+apatite group
 corundum
 goethite
 limonite
@@ -94,3 +96,6 @@ phyllite
 quartzite
 serpentinite
 slate
+arkose
+greywacke
+quartz sandstone

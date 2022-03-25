@@ -1,4 +1,4 @@
-apatite,apatite group
+apatite group,apatite
 pyromorphite
 turquoise
 vanadinite

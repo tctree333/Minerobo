@@ -19,10 +19,12 @@ rhodonite
 spodumene
 fluorite
 halite
+garnet group
 almandine
 aventurine
 agate
 amethyst
+chalcedony
 citrine
 jasper
 milky quartz
@@ -78,13 +80,13 @@ barite
 celestite
 chalk
 coquina
-fossiliferous limestone
+fossil limestone
 oolitic limestone
 travertine
 hornblende
 tremolite
 actinolite
-apatite
+apatite group
 pyromorphite
 turquoise
 vanadinite
@@ -98,7 +100,7 @@ rutile
 zincite
 garnet schist
 mica schist
-soapstone
+talc schist
 banded iron
 bauxite
 breccia

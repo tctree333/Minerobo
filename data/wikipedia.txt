@@ -19,11 +19,13 @@ rhodonite,https://www.minerals.net/mineral/rhodonite.aspx
 spodumene,https://en.wikipedia.org/wiki/Spodumene
 fluorite,https://www.minerals.net/mineral/fluorite.aspx
 halite,https://www.minerals.net/mineral/halite.aspx
+garnet group,https://en.wikipedia.org/wiki/Garnet
 almandine,https://www.minerals.net/mineral/almandine.aspx
 aventurine,https://en.wikipedia.org/wiki/Aventurine
 agate,https://www.minerals.net/mineral/agate.aspx
 amethyst,https://www.minerals.net/mineral/amethyst.aspx
 citrine,https://www.minerals.net/mineral/citrine.aspx
+chalcedony,https://en.wikipedia.org/wiki/Chalcedony
 jasper,https://www.minerals.net/mineral/jasper.aspx
 milky quartz,http://www.galleries.com/Milky_quartz
 opal,https://www.minerals.net/mineral/opal.aspx
@@ -78,13 +80,13 @@ barite,https://www.minerals.net/mineral/barite.aspx
 celestite,https://en.wikipedia.org/wiki/Celestine_(mineral)
 chalk,https://en.wikipedia.org/wiki/Chalk
 coquina,https://en.wikipedia.org/wiki/Coquina
-fossiliferous limestone,https://en.wikipedia.org/wiki/Fossiliferous_limestone
+fossil limestone,https://en.wikipedia.org/wiki/Fossiliferous_limestone
 oolitic limestone,https://en.wikipedia.org/wiki/Oolite
 travertine,https://en.wikipedia.org/wiki/Travertine
 hornblende,https://www.minerals.net/mineral/hornblende.aspx
 tremolite,https://www.minerals.net/mineral/tremolite.aspx
 actinolite,https://en.wikipedia.org/wiki/Actinolite
-apatite,https://www.minerals.net/mineral/apatite.aspx
+apatite group,https://www.minerals.net/mineral/apatite.aspx
 pyromorphite,https://en.wikipedia.org/wiki/Pyromorphite
 turquoise,https://en.wikipedia.org/wiki/Turquoise
 vanadinite,https://en.wikipedia.org/wiki/Vanadinite
@@ -98,7 +100,7 @@ rutile,https://en.wikipedia.org/wiki/Rutile
 zincite,https://en.wikipedia.org/wiki/Zincite
 garnet schist,https://geology.com/rocks/schist.shtml
 mica schist,https://geology.com/rocks/schist.shtml
-soapstone,https://en.wikipedia.org/wiki/Soapstone
+talc schist,https://en.wikipedia.org/wiki/Soapstone
 banded iron,https://en.wikipedia.org/wiki/Banded_iron_formation
 bauxite,https://www.minerals.net/mineral/bauxite.aspx
 breccia,https://en.wikipedia.org/wiki/Breccia
