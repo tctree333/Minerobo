@@ -19,11 +19,13 @@ rhodonite,https://www.minerals.net/mineral/rhodonite.aspx
 spodumene,https://en.wikipedia.org/wiki/Spodumene
 fluorite,https://www.minerals.net/mineral/fluorite.aspx
 halite,https://www.minerals.net/mineral/halite.aspx
+garnet,https://en.wikipedia.org/wiki/Garnet
 almandine,https://www.minerals.net/mineral/almandine.aspx
 aventurine,https://en.wikipedia.org/wiki/Aventurine
 agate,https://www.minerals.net/mineral/agate.aspx
 amethyst,https://www.minerals.net/mineral/amethyst.aspx
 citrine,https://www.minerals.net/mineral/citrine.aspx
+chalcedony,https://en.wikipedia.org/wiki/Chalcedony
 jasper,https://www.minerals.net/mineral/jasper.aspx
 milky quartz,http://www.galleries.com/Milky_quartz
 opal,https://www.minerals.net/mineral/opal.aspx
