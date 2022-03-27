@@ -17,7 +17,7 @@ tuff
 augite
 fluorite
 halite
-garnet group
+garnet
 almandine
 aventurine
 agate
@@ -66,11 +66,11 @@ selenite
 barite
 chalk
 coquina
-fossil limestone
+fossiliferous limestone
 oolitic limestone
 travertine
 hornblende
-apatite group
+apatite
 corundum
 goethite
 limonite

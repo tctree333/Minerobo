@@ -1,2 +1,2 @@
 almandine
-garnet group,garnet
+garnet,garnet group
