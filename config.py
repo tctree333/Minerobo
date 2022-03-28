@@ -36,9 +36,13 @@ config: Dict[str, Any] = {
     "authors": "person_v1.32",  # creator names
     "extra_about_fields": [
         {
+            "name": "Privacy Policy",
+            "value": "By using this bot, you agree to our [Privacy Policy](https://sciolyid.org/privacy/).",
+        },
+        {
             "name": "Attribution",
             "value": "See https://sciolyid.org/minerobo/attribution/ for image sources.",
-        }
+        },
     ],  # list of dicts containing keys "name" and "value" to be added to the botinfo command
     "category_name": "specimen category",  # space thing, bird order, muscle group - what you are splitting groups by
     "category_aliases": {  # aliases for categories
