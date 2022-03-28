@@ -17,10 +17,12 @@ tuff
 augite
 fluorite
 halite
+garnet
 almandine
 aventurine
 agate
 amethyst
+chalcedony
 milky quartz
 opal
 rock crystal
@@ -94,3 +96,6 @@ phyllite
 quartzite
 serpentinite
 slate
+arkose
+greywacke
+quartz sandstone
