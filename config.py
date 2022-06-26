@@ -10,7 +10,7 @@ config: Dict[str, Any] = {
     "id_type": "rocks",  # stars, fossils, muscles, etc. - plural noun
     "github_image_repo_url": None,  # link to github image repo
     "support_server": "https://discord.gg/2HbshwGjnm",  # link to discord support server
-    "source_link": "placeholder",  # link to source code (may be hosted on github)
+    "source_link": "https://github.com/tctree333/Minerobo",  # link to source code (may be hosted on github)
     "name": "minerobo",  # all lowercase, no spaces, doesn't really matter what this is
     # "members_intent": False,  # whether the privileged members intent is enabled in the developer portal
     # "download_func": get_images,  # asyncronous function that downloads images locally to download_dir
