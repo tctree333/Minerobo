@@ -1,0 +1,9 @@
+setup_local.sh
+logs
+__pycache__
+.vscode
+dump.rdb
+bot_files
+.python-version
+.DS_Store
+.mypy_cache
