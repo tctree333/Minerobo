@@ -1,7 +1,7 @@
 banded iron,banded iron formation,bif
 bauxite
 breccia
-chert
+chert,flint
 conglomerate
 diatomite
 dolostone
