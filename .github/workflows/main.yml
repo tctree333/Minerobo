@@ -19,6 +19,13 @@ jobs:
       #     sentry org: 'sciolyid'
       #     sentry project 1: minerobo
 
+      - name: Sentry Deploys
+        uses: getsentry/action-release@v1
+        env:
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_TOKEN }}
+          SENTRY_ORG: sciolyid
+          SENTRY_PROJECT: minerobo
+
       - name: Deploy to Dokku
         uses: tctree333/SciOlyID-Actions/deploy-dokku@master
         with:
