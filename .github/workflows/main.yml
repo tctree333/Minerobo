@@ -11,15 +11,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
-      - name: Sentry Deploys
-        uses: tctree333/SciOlyID-Actions/sentry@master
-        with:
-          sentry auth: ${{ secrets.SENTRY_TOKEN }}
-          sentry org: 'sciolyid'
-          sentry project 1: minerobo
+      # - name: Sentry Deploys
+      #   uses: tctree333/SciOlyID-Actions/sentry@master
+      #   with:
+      #     sentry auth: ${{ secrets.SENTRY_TOKEN }}
+      #     sentry org: 'sciolyid'
+      #     sentry project 1: minerobo
 
       - name: Deploy to Dokku
         uses: tctree333/SciOlyID-Actions/deploy-dokku@master
