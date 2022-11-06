@@ -22,7 +22,7 @@ jobs:
       - name: Sentry Deploys
         uses: getsentry/action-release@v1
         env:
-          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_TOKEN }}
+          SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_INTEGRATION_TOKEN }}
           SENTRY_ORG: sciolyid
           SENTRY_PROJECT: minerobo
 
