@@ -1,4 +1,4 @@
-name: "Deploy"
+name: 'Deploy'
 
 on:
   push:
@@ -10,19 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-        - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-        - name: Sentry Deploys
-          uses: tctree333/SciOlyID-Actions/sentry@master
-          with:
-            sentry auth: ${{ secrets.SENTRY_TOKEN }}
-            sentry org: "sciolyid"
-            sentry project 1: minerobo
+      - name: Sentry Deploys
+        uses: tctree333/SciOlyID-Actions/sentry@master
+        with:
+          sentry auth: ${{ secrets.SENTRY_TOKEN }}
+          sentry org: 'sciolyid'
+          sentry project 1: minerobo
 
-        - name: Deploy to Dokku
-          uses: tctree333/SciOlyID-Actions/deploy-dokku@master
-          with:
-            dokku app name: minerobo
-            dokku host: ${{ secrets.DOKKU_HOST }}
-            ssh private key: ${{ secrets.PRIVATE_KEY }}
-            deploy branch: main
+      - name: Deploy to Dokku
+        uses: tctree333/SciOlyID-Actions/deploy-dokku@master
+        with:
+          dokku app name: minerobo
+          dokku host: ${{ secrets.DOKKU_HOST }}
+          ssh private key: ${{ secrets.PRIVATE_KEY }}
+          deploy branch: main
