@@ -1,0 +1,30 @@
+calcite
+copper
+fluorite
+galena
+graphite
+satin spar
+halite
+hematite
+biotite
+pyrite
+kaolinite
+chert
+rock crystal
+talc
+basalt
+bituminous coal
+conglomerate
+gneiss
+granite
+fossiliferous limestone
+marble
+obsidian
+pumice
+quartzite
+garnet schist
+scoria
+shale
+orthoclase
+microcline
+quartz sandstone
