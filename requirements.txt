@@ -2,3 +2,4 @@ sciolyid[web]==2.0.1
 beautifulsoup4==4.9.3
 lxml==4.9.2
 sentry-sdk==1.26.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
