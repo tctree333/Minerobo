@@ -1,6 +1,59 @@
+ulexite
+aragonite
+azurite
+calcite
+dolomite
+malachite
+copper
+diamond
+gold
+graphite
+silver
+sulfur
+fluorite
+halite
+corundum
+goethite/limonite
+hematite
+magnetite
+fluorapatite
+barite
+celestite
+alabaster
+satin spar
+selenite
+chalcopyrite
+galena
+pyrite
+sphalerite
+hornblende
+beryl
+epidote
+albite
+labradorite
 amazonite
-orthoclase
-microcline
+orthoclase/microcline
+almandine
+grossular
+kaolinite
+kyanite
+biotite
+muscovite
+olivine
+augite
+aventurine
+agate/chalcedony
+amethyst
+citrine
+milky quartz
+opal
+rock crystal
+rose quartz
+sodalite
+staurolite
+talc
+topaz
+tourmaline
 andesite
 basalt
 diorite
@@ -12,90 +65,29 @@ peridotite
 pumice
 rhyolite
 scoria
-syenite
-tuff
-augite
-fluorite
-halite
-garnet
-almandine
-aventurine
-agate
-amethyst
-chalcedony
-milky quartz
-opal
-rock crystal
-rose quartz
-biotite
-muscovite
-aragonite
-azurite
-calcite
-dolomite
-malachite
-chalcopyrite
-galena
-pyrite
-sphalerite
-ulexite
-albite
-labradorite
-beryl
-epidote
-kaolinite
-kyanite
-olivine
-sodalite
-staurolite
-talc
-topaz
-tourmaline group
-copper
-diamond
-gold
-graphite
-silver
-sulfur
-anthracite
-bituminous coal
-lignite
-alabaster
-satin spar
-selenite
-barite
-chalk
-coquina
-fossiliferous limestone
-oolitic limestone
-travertine
-hornblende
-apatite
-corundum
-goethite
-limonite
-hematite
-magnetite
-garnet schist
-mica schist
-soapstone
-banded iron
+banded iron formation
 bauxite
 breccia
-chert
+chert/flint
 conglomerate
-diatomite
 dolostone
-rock salt
+rock salt/halite
 rock gypsum
 shale
-amphibolite
+anthracite
+bituminous
+lignite
+chalk
+coquina
+fossil limestone
+oolitic limestone
+travertine
+arkose
+quartz sandstone
 gneiss
 marble
 phyllite
 quartzite
-serpentinite
+garnet schist
+mica schist
 slate
-arkose
-greywacke
-quartz sandstone

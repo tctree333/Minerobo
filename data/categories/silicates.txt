@@ -4,11 +4,13 @@ epidote
 kaolinite
 kyanite
 olivine
+prehnite
 sodalite
 staurolite
 stilbite
 talc
 topaz
-tourmaline group,tourmaline
+tourmaline
 willemite
+wollastonite
 zircon

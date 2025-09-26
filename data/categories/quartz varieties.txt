@@ -1,7 +1,6 @@
 aventurine
-agate
+agate,chalcedony
 amethyst
-chalcedony
 citrine
 jasper
 milky quartz
@@ -9,3 +8,4 @@ opal
 rock crystal,crystal
 rose quartz
 smoky quartz,smoky
+tiger's eye, tigers eye
