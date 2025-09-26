@@ -1,6 +1,5 @@
 corundum
-goethite
-limonite
+goethite,limonite
 hematite
 magnetite
 pyrolusite

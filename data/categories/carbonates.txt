@@ -3,4 +3,6 @@ azurite
 calcite
 dolomite
 malachite
+magnesite
 rhodochrosite
+siderite

@@ -1,6 +1,85 @@
+ulexite
+aragonite
+azurite
+calcite
+dolomite
+malachite
+magnesite
+rhodochrosite
+siderite
+copper
+diamond
+gold
+graphite
+silver
+sulfur
+fluorite
+halite
+corundum
+goethite/limonite
+hematite
+magnetite
+pyrolusite
+rutile
+zincite
+turquoise
+fluorapatite
+pyromorphite
+vanadinite
+barite
+celestite
+alabaster
+satin spar
+selenite
+bornite
+chalcopyrite
+galena
+pyrite
+sphalerite
+stibnite
+actinolite
+hornblende
+tremolite
+apophyllite
+beryl
+chrysocolla
+dioptase
+epidote
+albite
+labradorite
 amazonite
-orthoclase
-microcline
+orthoclase/microcline
+almandine
+grossular
+kaolinite
+kyanite
+biotite
+lepidolite
+muscovite
+olivine
+prehnite
+augite
+rhodonite
+spodumene
+aventurine
+agate/chalcedony
+amethyst
+citrine
+milky quartz
+opal
+rock crystal
+rose quartz
+smoky quartz
+tiger's eye
+sodalite
+staurolite
+stilbite
+talc
+topaz
+tourmaline
+willemite
+wollastonite
+zircon
 andesite
 basalt
 diorite
@@ -14,110 +93,36 @@ rhyolite
 scoria
 syenite
 tuff
-augite
-rhodonite
-spodumene
-fluorite
-halite
-garnet
-almandine
-aventurine
-agate
-amethyst
-chalcedony
-citrine
-jasper
-milky quartz
-opal
-rock crystal
-rose quartz
-smoky quartz
-biotite
-lepidolite
-muscovite
-aragonite
-azurite
-calcite
-dolomite
-malachite
-rhodochrosite
-bornite
-chalcopyrite
-galena
-pyrite
-sphalerite
-stibnite
-ulexite
-albite
-labradorite
-apophyllite
-beryl
-epidote
-kaolinite
-kyanite
-olivine
-sodalite
-staurolite
-stilbite
-talc
-topaz
-tourmaline group
-willemite
-zircon
-copper
-diamond
-gold
-graphite
-silver
-sulfur
-anthracite
-bituminous coal
-lignite
-alabaster
-satin spar
-selenite
-barite
-celestite
-chalk
-coquina
-fossiliferous limestone
-oolitic limestone
-travertine
-hornblende
-tremolite
-actinolite
-apatite
-pyromorphite
-turquoise
-vanadinite
-corundum
-goethite
-limonite
-hematite
-magnetite
-pyrolusite
-rutile
-zincite
-garnet schist
-mica schist
-soapstone
-banded iron
+tuff breccia
+banded iron formation
 bauxite
 breccia
-chert
+chert/flint
 conglomerate
 diatomite
 dolostone
-rock salt
+rock salt/halite
 rock gypsum
 shale
+siltstone
+anthracite
+bituminous
+lignite
+chalk
+coquina
+fossil limestone
+oolitic limestone
+travertine
+arkose
+greywacke
+quartz sandstone
 amphibolite
 gneiss
 marble
 phyllite
 quartzite
+garnet schist
+mica schist
+talc schist/soapstone
 serpentinite
 slate
-arkose
-greywacke
-quartz sandstone

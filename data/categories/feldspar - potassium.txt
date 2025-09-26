@@ -1,3 +1,2 @@
 amazonite
-orthoclase,potassium feldspar,feldspar
-microcline,potassium feldspar,feldspar
+orthoclase,microcline,potassium feldspar,feldspar

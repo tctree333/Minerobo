@@ -11,3 +11,4 @@ rhyolite
 scoria
 syenite
 tuff
+tuff breccia
